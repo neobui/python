@@ -1,6 +1,6 @@
 from math import cos, radians
 
-# Create a string with spaces proportional to a cosine of x in degrees
+# Create a string with spaces proportional to a cosine of x in degrees and print it out
 def make_dot_string(x):
     rad = radians(x)                             # cos works with radians
     numspaces = int(20 * cos(radians(x)) + 20)   # scale to 0-40 spaces
